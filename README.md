@@ -18,7 +18,7 @@ The program will ask the user to set a canvas size
 
 # Commands
 When the progam is running, you can interact with it by writting commands. Here is the list of available commands :
-- **add _x y_**: adds a point at _relative_ coordinates (x, y) on the canvas, with x, y in [0,1]
+- **add _x_ _y_**: adds a point at _relative_ coordinates (x, y) on the canvas, with x, y in [0,1]
 - **generate _n_**: generates a plot made of n points on the curve parameterized by the points provided as input, with n being a natural number
 - **blank**: clears the canvas, deletes all points
 - **quit**
