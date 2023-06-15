@@ -33,6 +33,7 @@ add 0.7 0.6
 add 0.4 0.2
 add 0.2 0.9
 generate 400
+quit
 ```
 
 ![](https://i.imgur.com/WRhWo9Q.png) \
