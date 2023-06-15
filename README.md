@@ -17,7 +17,7 @@ Argument: path for the generated image
 The program will ask the user to set a canvas size
 
 # Commands
-When the progam is running, you can interact with it by writting commands. Here is the list of available commands :
+When the progam is running, you can interact with it by writting commands. Here is the list of available commands:
 - **add _x_ _y_**: adds a point at _relative_ coordinates _(x, y)_ on the canvas, with _x_, _y_ in [0,1]
 - **generate _n_**: generates a plot made of _n_ points on the curve parameterized by the points provided as input, with _n_ being a natural number
 - **blank**: clears the canvas, deletes all points
