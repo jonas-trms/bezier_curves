@@ -2,7 +2,7 @@
 
 This algorithm calculates a given number of points belonging to the curve parameterized by the points provided as input, then generates a plot made up of the calculated points.
 
-The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve passing through the entered points and to generate a ppm image of the space.
+The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the the entered points and to generate a ppm image of the canvas.
 
 # Execution
 Argument : path for the generated image in ppm format
