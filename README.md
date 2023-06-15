@@ -36,5 +36,5 @@ generate 400
 quit
 ```
 
-![](https://i.imgur.com/WRhWo9Q.png) \
+![A curve parametrized by the points (0.1, 0.4), (0.7, 0.6), (0.4, 0.2), (0.2, 0.9)](https://i.imgur.com/WRhWo9Q.png) \
 A curve parametrized by the points (0.1, 0.4), (0.7, 0.6), (0.4, 0.2), (0.2, 0.9)
