@@ -1,4 +1,4 @@
-# A graphic Bézier curves generator
+# A graphic Bézier curve generator
 
 This algorithm calculates a given number of points belonging to the curve parameterized by the points provided as input, then generates a plot made up of the calculated points.
 
