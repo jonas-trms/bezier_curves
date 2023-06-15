@@ -13,8 +13,8 @@ $ gcc -o bezier_curves main.c bezier_computations.c canvas_operations.c linked_l
 
 ## Usage
 The first command line argument expects the path to the `.ppm` output file. The program will ask the user to set a canvas size. From then, the program works like a CLI. There are four commands:
-* `add x y` adds a point at _relative_ coordinates (`x`, `y`) on the canvas, with `x`, `y` being floats in [0,1]
-* `generate n` generates a plot made of `n` points on the curve parameterized by the points provided as input, with `n` being a natural number
+* `add x y` adds a point at _relative_ coordinates (`x`, `y`) on the canvas, with `x`, `y` being `float` values in [0,1]
+* `generate n` generates a plot made of `n` points on the curve parameterized by the points provided as input, with `n` being an `int`
 * `blank` clears the canvas and deletes all points
 * `quit`
 
