@@ -12,9 +12,9 @@ $ gcc -o bezier_curves main.c bezier_computations.c canvas_operations.c linked_l
 ```
 
 # Execution
-Argument: path for the generated image
+Argument: path for the generated image.
 
-The program will ask the user to set a canvas size
+The program will ask the user to set a canvas size.
 
 # Commands
 When the progam is running, you can interact with it by writting commands. Here is the list of available commands:
