@@ -2,22 +2,38 @@
 
 This algorithm calculates a given number of points belonging to the curve parameterized by the points provided as input, then generates a plot made up of the calculated points.
 
-The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the the entered points and to generate a ppm image of the canvas.
+The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the the entered points and to clear the canvas. The PPM image is generated at each change operated on the canvas.
+
+# Compilation
+You can compile with GCC by running the following command:
+
+```
+$ gcc -o bezier_curves main.c bezier_computations.c canvas_operations.c linked_lists.c -lm
+```
 
 # Execution
-Argument : path for the generated image in ppm format
+Argument: path for the generated image
 
 The program will ask the user to set a canvas size
 
 # Commands
-**add x y**: adds a point at _relative_ coordinates (x, y) on the canvas, with x, y in [0,1]
-
-**generate n**: generates a plot made of n points on the curve parameterized by the points provided as input, with n being a natural number
-
-**blank**: clears the canvas, deletes all points
-
-**quit**
+When the progam is running, you can interact with it by writting commands. Here is the list of available commands :
+- **add _x y_**: adds a point at _relative_ coordinates (x, y) on the canvas, with x, y in [0,1]
+- **generate _n_**: generates a plot made of n points on the curve parameterized by the points provided as input, with n being a natural number
+- **blank**: clears the canvas, deletes all points
+- **quit**
 
 # Example
+```
+$ ./bezier_curves curves.ppm
+Please choose width & height
+350 350
+add 0.1 0.4
+add 0.7 0.6
+add 0.4 0.2
+add 0.2 0.9
+generate 400
+```
+
 ![](https://i.imgur.com/WRhWo9Q.png) \
-A curve parametrized by the points (0.1; 0.4), (0.7; 0.6), (0.4; 0.2), (0.2; 0.9)
+A curve parametrized by the points (0.1, 0.4), (0.7, 0.6), (0.4, 0.2), (0.2, 0.9)
