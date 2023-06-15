@@ -2,7 +2,7 @@
 
 This algorithm calculates a given number of points belonging to the curve parameterized by the points provided as input, then generates a plot made up of the calculated points.
 
-The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the the entered points and to clear the canvas. The PPM image is generated at each change operated on the canvas.
+The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the entered points and to clear the canvas. A PPM image is generated at each change operated on the canvas.
 
 # Compilation
 You can compile with GCC by running the following command:
