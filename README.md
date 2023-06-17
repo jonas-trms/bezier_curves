@@ -8,11 +8,11 @@ The user interface in the console offers the possibility to add and delete point
 You can compile with GCC by running the following command:
 
 ```
-$ gcc -o bezier_curves main.c bezier_computations.c canvas_operations.c linked_lists.c -lm
+$ gcc -o bezier_curves src/main.c src/bezier_computations.c src/canvas_operations.c src/linked_lists.c -lm
 ```
 
 ## Usage
-The first command line argument expects the path to the `.ppm` output file. The program will ask the user to set a canvas size. From then, the program works like a CLI. There are four commands:
+The program is called using the command `./bezier_curves path`, with `path` being the path to the `.ppm` output file. The user will be asked to set a canvas size. From then, the program works like a CLI. There are four commands:
 * `add x y` adds a point at _relative_ coordinates (`x`, `y`) on the canvas, with `x`, `y` being `float` values in [0,1].
 * `generate n` generates a plot made of `n` points on the curve parameterized by the points provided as input, with `n` being an `int`.
 * `blank` clears the canvas and deletes all points.
