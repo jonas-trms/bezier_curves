@@ -5,7 +5,7 @@ This algorithm calculates a given number of points belonging to the curve parame
 The user interface in the console offers the possibility to add and delete points, to generate the Bézier curve parameterized by the entered points and to clear the canvas. A `.ppm` image is generated at each change operated on the canvas.
 
 ## Compilation
-You can compile with GCC by running the following command:
+You can compile with `gcc` by running the following command:
 
 ```
 $ gcc -o bezier_curves src/main.c src/bezier_computations.c src/canvas_operations.c src/linked_lists.c -lm
